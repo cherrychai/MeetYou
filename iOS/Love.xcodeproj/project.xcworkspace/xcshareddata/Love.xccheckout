@@ -14,11 +14,11 @@
 		<string>https://github.com/cherrychai/MeetYou.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Love.xcodeproj</string>
+	<string>iOS/Love.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4C4257D730916B3CF3A1EC883ED00B424574B2D2</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/cherrychai/MeetYou.git</string>

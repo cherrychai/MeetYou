@@ -37,6 +37,11 @@
 		B0CD4EC71AE28D5B0015DE25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */; };
 		B0CD4EC91AE2A4770015DE25 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC81AE2A4770015DE25 /* UserCell.swift */; };
 		B0CD4ECB1AE2B3060015DE25 /* Meet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0CD4ECA1AE2B3060015DE25 /* Meet.jpeg */; };
+		DA56A9411AEE6C8600BF85AF /* Feedback_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93C1AEE6C8600BF85AF /* Feedback_2.png */; };
+		DA56A9421AEE6C8600BF85AF /* Feedback_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93D1AEE6C8600BF85AF /* Feedback_1.png */; };
+		DA56A9431AEE6C8600BF85AF /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93E1AEE6C8600BF85AF /* Setting.png */; };
+		DA56A9441AEE6C8600BF85AF /* Femail.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93F1AEE6C8600BF85AF /* Femail.png */; };
+		DA56A9451AEE6C8600BF85AF /* Male.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A9401AEE6C8600BF85AF /* Male.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +89,11 @@
 		B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B0CD4EC81AE2A4770015DE25 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		B0CD4ECA1AE2B3060015DE25 /* Meet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meet.jpeg; sourceTree = "<group>"; };
+		DA56A93C1AEE6C8600BF85AF /* Feedback_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback_2.png; sourceTree = "<group>"; };
+		DA56A93D1AEE6C8600BF85AF /* Feedback_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback_1.png; sourceTree = "<group>"; };
+		DA56A93E1AEE6C8600BF85AF /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		DA56A93F1AEE6C8600BF85AF /* Femail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Femail.png; sourceTree = "<group>"; };
+		DA56A9401AEE6C8600BF85AF /* Male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +209,11 @@
 		B022A9031AE22FF400F38443 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				DA56A93C1AEE6C8600BF85AF /* Feedback_2.png */,
+				DA56A93D1AEE6C8600BF85AF /* Feedback_1.png */,
+				DA56A93E1AEE6C8600BF85AF /* Setting.png */,
+				DA56A93F1AEE6C8600BF85AF /* Femail.png */,
+				DA56A9401AEE6C8600BF85AF /* Male.png */,
 				B022A9041AE22FF400F38443 /* Contact_1.png */,
 				B022A9051AE22FF400F38443 /* Contact_1_S.png */,
 				B022A9061AE22FF400F38443 /* Contact_2.png */,
@@ -336,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA56A9451AEE6C8600BF85AF /* Male.png in Resources */,
 				B022A9211AE22FF400F38443 /* Love_2_S.png in Resources */,
 				B022A9171AE22FF400F38443 /* Contact_1.png in Resources */,
 				B022A8E51AE22F2F00F38443 /* Main.storyboard in Resources */,
@@ -344,6 +360,7 @@
 				B022A9231AE22FF400F38443 /* Love_4.png in Resources */,
 				B022A9251AE22FF400F38443 /* Love_5_S.png in Resources */,
 				B022A8EA1AE22F2F00F38443 /* LaunchScreen.xib in Resources */,
+				DA56A9431AEE6C8600BF85AF /* Setting.png in Resources */,
 				B022A9261AE22FF400F38443 /* Love_6.png in Resources */,
 				B0CD4ECB1AE2B3060015DE25 /* Meet.jpeg in Resources */,
 				B022A9191AE22FF400F38443 /* Contact_2.png in Resources */,
@@ -354,9 +371,12 @@
 				B022A9281AE22FF400F38443 /* Message_1.png in Resources */,
 				B022A91E1AE22FF400F38443 /* Love_1.png in Resources */,
 				B022A9271AE22FF400F38443 /* Love_6_S.png in Resources */,
+				DA56A9441AEE6C8600BF85AF /* Femail.png in Resources */,
 				B022A91B1AE22FF400F38443 /* Contact_3.png in Resources */,
+				DA56A9411AEE6C8600BF85AF /* Feedback_2.png in Resources */,
 				B022A9291AE22FF400F38443 /* Message_1_S.png in Resources */,
 				B022A9181AE22FF400F38443 /* Contact_1_S.png in Resources */,
+				DA56A9421AEE6C8600BF85AF /* Feedback_1.png in Resources */,
 				B022A9241AE22FF400F38443 /* Love_5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
