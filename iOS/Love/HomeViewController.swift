@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UITableViewDataSource {
+class HomeViewController: UIViewController {
     @IBOutlet weak var profileTableView: UITableView!
     
     let profileCellIdentifier = "love.com.ProfileCell"
@@ -17,11 +17,11 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        profileTableView.rowHeight = 40
-        profileTableView.dataSource = self
+        //profileTableView.rowHeight = 40
+        //profileTableView.dataSource = self
     }
     
-    func tableView(profileTableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    /*func tableView(profileTableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let profileCell = profileTableView.dequeueReusableCellWithIdentifier(profileCellIdentifier, forIndexPath: indexPath) as! ProfileCell
         let name = profile[indexPath.row]
         
@@ -32,5 +32,5 @@ class HomeViewController: UIViewController, UITableViewDataSource {
     
     func tableView(profileTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return profile.count
-    }
+    }*/
 }

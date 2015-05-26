@@ -33,7 +33,6 @@
 		B0CD4EBE1AE245CC0015DE25 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EBD1AE245CC0015DE25 /* ContactViewController.swift */; };
 		B0CD4EC01AE259BE0015DE25 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EBF1AE259BE0015DE25 /* ContactCell.swift */; };
 		B0CD4EC31AE273E60015DE25 /* UerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC21AE273E60015DE25 /* UerDataSource.swift */; };
-		B0CD4EC51AE28D020015DE25 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC41AE28D020015DE25 /* ProfileCell.swift */; };
 		B0CD4EC71AE28D5B0015DE25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */; };
 		B0CD4EC91AE2A4770015DE25 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC81AE2A4770015DE25 /* UserCell.swift */; };
 		B0CD4ECB1AE2B3060015DE25 /* Meet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0CD4ECA1AE2B3060015DE25 /* Meet.jpeg */; };
@@ -86,7 +85,6 @@
 		B0CD4EBD1AE245CC0015DE25 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		B0CD4EBF1AE259BE0015DE25 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		B0CD4EC21AE273E60015DE25 /* UerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UerDataSource.swift; sourceTree = "<group>"; };
-		B0CD4EC41AE28D020015DE25 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B0CD4EC81AE2A4770015DE25 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		B0CD4ECA1AE2B3060015DE25 /* Meet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meet.jpeg; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */,
-				B0CD4EC41AE28D020015DE25 /* ProfileCell.swift */,
 				B0CD4EC81AE2A4770015DE25 /* UserCell.swift */,
 			);
 			name = Home;
@@ -403,7 +400,6 @@
 				B022A8E01AE22F2F00F38443 /* AppDelegate.swift in Sources */,
 				B0CD4EBE1AE245CC0015DE25 /* ContactViewController.swift in Sources */,
 				DA99DED11B0E331C00C15A3E /* LoginViewController.swift in Sources */,
-				B0CD4EC51AE28D020015DE25 /* ProfileCell.swift in Sources */,
 				B0CD4EC71AE28D5B0015DE25 /* HomeViewController.swift in Sources */,
 				B0CD4EC91AE2A4770015DE25 /* UserCell.swift in Sources */,
 			);
