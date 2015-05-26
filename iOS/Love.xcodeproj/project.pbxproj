@@ -42,6 +42,7 @@
 		DA56A9431AEE6C8600BF85AF /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93E1AEE6C8600BF85AF /* Setting.png */; };
 		DA56A9441AEE6C8600BF85AF /* Femail.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93F1AEE6C8600BF85AF /* Femail.png */; };
 		DA56A9451AEE6C8600BF85AF /* Male.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A9401AEE6C8600BF85AF /* Male.png */; };
+		DA99DED11B0E331C00C15A3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99DED01B0E331C00C15A3E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		DA56A93E1AEE6C8600BF85AF /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
 		DA56A93F1AEE6C8600BF85AF /* Femail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Femail.png; sourceTree = "<group>"; };
 		DA56A9401AEE6C8600BF85AF /* Male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male.png; sourceTree = "<group>"; };
+		DA99DED01B0E331C00C15A3E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 				B022A9001AE22F4600F38443 /* Contact */,
 				B022A9011AE22F5000F38443 /* Message */,
 				B022A9021AE22F5600F38443 /* Meet */,
+				DA99DED01B0E331C00C15A3E /* LoginViewController.swift */,
 			);
 			name = BusinessLogic;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				B0CD4EC31AE273E60015DE25 /* UerDataSource.swift in Sources */,
 				B022A8E01AE22F2F00F38443 /* AppDelegate.swift in Sources */,
 				B0CD4EBE1AE245CC0015DE25 /* ContactViewController.swift in Sources */,
+				DA99DED11B0E331C00C15A3E /* LoginViewController.swift in Sources */,
 				B0CD4EC51AE28D020015DE25 /* ProfileCell.swift in Sources */,
 				B0CD4EC71AE28D5B0015DE25 /* HomeViewController.swift in Sources */,
 				B0CD4EC91AE2A4770015DE25 /* UserCell.swift in Sources */,
