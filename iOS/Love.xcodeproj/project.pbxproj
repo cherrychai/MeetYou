@@ -36,6 +36,11 @@
 		B0CD4EC71AE28D5B0015DE25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */; };
 		B0CD4EC91AE2A4770015DE25 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CD4EC81AE2A4770015DE25 /* UserCell.swift */; };
 		B0CD4ECB1AE2B3060015DE25 /* Meet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0CD4ECA1AE2B3060015DE25 /* Meet.jpeg */; };
+		DA09600A1B26733800E7B9BA /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0960091B26733800E7B9BA /* MessageViewController.swift */; };
+		DA09600C1B26735B00E7B9BA /* MeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09600B1B26735B00E7B9BA /* MeetViewController.swift */; };
+		DA09600E1B2673E200E7B9BA /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09600D1B2673E200E7B9BA /* Friend.swift */; };
+		DA0960101B2673F000E7B9BA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09600F1B2673F000E7B9BA /* User.swift */; };
+		DA0960121B26740700E7B9BA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0960111B26740700E7B9BA /* Message.swift */; };
 		DA56A9411AEE6C8600BF85AF /* Feedback_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93C1AEE6C8600BF85AF /* Feedback_2.png */; };
 		DA56A9421AEE6C8600BF85AF /* Feedback_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93D1AEE6C8600BF85AF /* Feedback_1.png */; };
 		DA56A9431AEE6C8600BF85AF /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56A93E1AEE6C8600BF85AF /* Setting.png */; };
@@ -88,6 +93,11 @@
 		B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B0CD4EC81AE2A4770015DE25 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		B0CD4ECA1AE2B3060015DE25 /* Meet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meet.jpeg; sourceTree = "<group>"; };
+		DA0960091B26733800E7B9BA /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		DA09600B1B26735B00E7B9BA /* MeetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetViewController.swift; sourceTree = "<group>"; };
+		DA09600D1B2673E200E7B9BA /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		DA09600F1B2673F000E7B9BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DA0960111B26740700E7B9BA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		DA56A93C1AEE6C8600BF85AF /* Feedback_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback_2.png; sourceTree = "<group>"; };
 		DA56A93D1AEE6C8600BF85AF /* Feedback_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback_1.png; sourceTree = "<group>"; };
 		DA56A93E1AEE6C8600BF85AF /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
@@ -136,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				DA9472E91AEB3B6900C45D71 /* Persistence */,
-				DA9472E81AEB381400C45D71 /* BusinessLogic */,
+				DA9472E81AEB381400C45D71 /* Controller */,
 				B0CD4EC11AE273B10015DE25 /* Util */,
 				B022A9031AE22FF400F38443 /* Image */,
 				B022A8DF1AE22F2F00F38443 /* AppDelegate.swift */,
@@ -176,7 +186,6 @@
 		B022A8FF1AE22F3600F38443 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */,
 				B0CD4EC81AE2A4770015DE25 /* UserCell.swift */,
 			);
 			name = Home;
@@ -185,17 +194,9 @@
 		B022A9001AE22F4600F38443 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				B0CD4EBD1AE245CC0015DE25 /* ContactViewController.swift */,
 				B0CD4EBF1AE259BE0015DE25 /* ContactCell.swift */,
 			);
 			name = Contact;
-			sourceTree = "<group>";
-		};
-		B022A9011AE22F5000F38443 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Message;
 			sourceTree = "<group>";
 		};
 		B022A9021AE22F5600F38443 /* Meet */ = {
@@ -244,22 +245,28 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
-		DA9472E81AEB381400C45D71 /* BusinessLogic */ = {
+		DA9472E81AEB381400C45D71 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B0CD4EC61AE28D5B0015DE25 /* HomeViewController.swift */,
+				B0CD4EBD1AE245CC0015DE25 /* ContactViewController.swift */,
+				DA99DED01B0E331C00C15A3E /* LoginViewController.swift */,
+				DA0960091B26733800E7B9BA /* MessageViewController.swift */,
+				DA09600B1B26735B00E7B9BA /* MeetViewController.swift */,
 				B022A8FF1AE22F3600F38443 /* Home */,
 				B022A9001AE22F4600F38443 /* Contact */,
-				B022A9011AE22F5000F38443 /* Message */,
 				B022A9021AE22F5600F38443 /* Meet */,
-				DA99DED01B0E331C00C15A3E /* LoginViewController.swift */,
 			);
-			name = BusinessLogic;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		DA9472E91AEB3B6900C45D71 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
 				DA9472EA1AEB3CE100C45D71 /* DAO */,
+				DA09600D1B2673E200E7B9BA /* Friend.swift */,
+				DA09600F1B2673F000E7B9BA /* User.swift */,
+				DA0960111B26740700E7B9BA /* Message.swift */,
 			);
 			name = Persistence;
 			sourceTree = "<group>";
@@ -397,11 +404,16 @@
 			files = (
 				B0CD4EC01AE259BE0015DE25 /* ContactCell.swift in Sources */,
 				B0CD4EC31AE273E60015DE25 /* UerDataSource.swift in Sources */,
+				DA09600A1B26733800E7B9BA /* MessageViewController.swift in Sources */,
 				B022A8E01AE22F2F00F38443 /* AppDelegate.swift in Sources */,
+				DA09600C1B26735B00E7B9BA /* MeetViewController.swift in Sources */,
 				B0CD4EBE1AE245CC0015DE25 /* ContactViewController.swift in Sources */,
 				DA99DED11B0E331C00C15A3E /* LoginViewController.swift in Sources */,
+				DA09600E1B2673E200E7B9BA /* Friend.swift in Sources */,
 				B0CD4EC71AE28D5B0015DE25 /* HomeViewController.swift in Sources */,
+				DA0960121B26740700E7B9BA /* Message.swift in Sources */,
 				B0CD4EC91AE2A4770015DE25 /* UserCell.swift in Sources */,
+				DA0960101B2673F000E7B9BA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
